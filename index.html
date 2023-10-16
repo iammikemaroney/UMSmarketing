@@ -17,13 +17,14 @@
   <style>
 
   #header {
-    background-image: url("");
-    background-repeat: repeat-x;
+    background-image: url("https://www.dropbox.com/scl/fi/gzbffxc6cgrq2cy60kpny/landing-page-header_03.jpg?rlkey=7okws8cze4eh55ihoy814scq1&raw=1");
+    background-repeat: no-repeat;
     background-position: center;
-    background-width: 100%;
+    background-width:100%;
+    background-color:#660d0d;
   }
 
-  .myContainer{
+  .myContainer {
     width:100%;
   }
 
@@ -31,6 +32,14 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  }
+
+  .redlist {
+    color:#660d0d;
+    font-size:18px;
+    padding:10px;
+    text-align:left;
+    list-style-type: circle !important;
   }
 
   @media only screen and (min-width: 993px){
@@ -54,7 +63,7 @@
 </head>
 <body>
 
-  <nav class="nav" style="background-color:#FFFFFF;">
+  <!-- <nav class="nav" style="background-color:#FFFFFF;">
     <div class="nav-wrapper myContainer">
       <a id="logo-container" href="https://www.umsmail.com/" class="logo" target="_blank"><img src="https://www.umsmail.com/wp-content/uploads/2019/02/UMS_Logo_560x150.png" height="50" style="margin:5px 0 0 10px" /></a>
       <a href="#" class="sidenav-trigger" data-target="mobile-nav">
@@ -73,58 +82,73 @@
         <li><a href="" id=""></a></li>
       </ul>
     </div>
-  </nav>
+  </nav> -->
+
+  <div class="myContainer" id="header">
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <p style="color:#FFF;font-weight:bold;font-size:40px;padding:40px;text-align:center">
+          Maximize your brand exposure with highly-targeted digital advertising.
+        </p>
+      </div>
+
+      <div class="col s12 m6 l6">
+        &nbsp;
+      </div>
+    </div>
+  </div>
 
   <div class="section no-pad-bot" id="welcome">
-    <div class="myContainer" style="background-color:#FFF;border-bottom:1px solid #3372ac">
-      <div class="row">
-        <div class="col s12">
-          <div style="text-align:center;font-size:40px;font-weight:bold;color:#3372ac;padding:50px">
-            Maximize your brand exposure with highly-targeted digital advertising.
+    <div class="myContainer">
+      <div class="section">
+
+        <div class="row">
+          <div class="col s12">
+            <div style="margin:0 auto;padding:20px;">
+              <p style="text-align:center;color:#3372ac;font-size:28px;font-weight:bold">
+                UMS is capturing and matching mobile phones to physical addresses to serve 1 to 1 outbound digital ads to the home computers and mobile devices of your targets. They go online, they see your ads – maximizing your brand exposure. This process maximizes response by precisely targeting high value prospects digitally. You can-
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="section no-pad-bot" style="background-color:#3372ac;">
-    <div class="myContainer">
-      <div class="section">
-      	<div class="row">
-	      	<div class="col s12">
-            <div style="max-width:840px;margin:0 auto;padding:30px;">
-  		    		<p style="text-align:left;color:#FFFFFF;font-size:28px;">
-                UMS is capturing and matching mobile phones to physical addresses to serve 1 to 1 outbound digital ads to the home computers and mobile devices of your targets. They go online, they see your ads – maximizing your brand exposure. This process maximizes response by precisely targeting high value prospects digitally. You can-
-              </p>
-              <ul style="text-align:left;margin-top:10px;margin-left:15px;font-size:20px;color:#efefef;font-style:italic;">
-                <li style="list-style-type:disc">Add a new digital layer to your campaigns.</li>
-                <li style="margin-top:4px;list-style-type:disc">Target email-opt-outs with display ads.</li>
-                <li style="margin-top:4px;list-style-type:disc">Isolate clusters of high value prospects while they are at a location and capture their device IDs for future display ad targeting.</li>
-                <li style="margin-top:4px;list-style-type:disc">Isolate any venue and pick up device IDs for future direct mail targeting.</li>
-                <li style="margin-top:4px;list-style-type:disc">Track web traffic, Identify lost leads, and target them with DIRECT MAIL!</li>
-                <li style="margin-top:4px;list-style-type:disc">More</li>
-              </ul>
-            </div>
-	        </div>
-	      </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="no-pad-bot" id="section">
-    <div class="myContainer">
       <div class="section">
         <div class="row">
-          <div class="col s12">
-            <div class="icon-block" style="background-color:#FFF;padding:0 2% 2% 2%;">
-              <h1 class="center" style="color:#3372ac"><i class="large material-icons">local_phone</i></h1>
-              <h5 class="center black-text">
-                <a href="tel:+888-888-8888"><b><i>Click to Call</i></b></a>
-                <br><br><br>
-                <a target="_blank" href="https://www.umsmail.com/">visit umsmail.com
-              </h5>
-              <p style="text-align:center"><img src="https://www.umsmail.com/wp-content/uploads/2019/02/UMS_Logo_560x150.png" height="50px" /></p></a>
-            </div>
+          <div class="col s1">&nbsp;</div>
+          <div class="col s12 m5 l5">
+            <ul class="redlist">
+              <li style="list-style-type: initial;">Add a new digital layer to your campaigns.</li>
+              <li style="margin-top:1%;list-style-type: initial;">Target email-opt-outs with display ads.</li>
+              <li style="margin-top:1%;list-style-type: initial;">Isolate clusters of high value prospects while they are at a location and capture their device IDs for future display ad targeting.</li>
+            </ul>
+          </div>
+
+          <div class="col s12 m5 l5">
+            <ul class="redlist">
+              <li style="list-style-type: initial;">Isolate any venue and pick up device IDs for future direct mail targeting.</li>
+              <li style="margin-top:1%;list-style-type: initial;">Track web traffic, Identify lost leads, and target them with DIRECT MAIL!</li>
+              <li style="margin-top:1%;list-style-type: initial;">and More</li>
+            </ul>
+          </div>
+          <div class="col s1">&nbsp;</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m6 l6">
+            <p style="text-align:center;margin-top:5%"><img src="https://www.umsmail.com/wp-content/uploads/2019/02/UMS_Logo_560x150.png" height="60px" /></p>
+            <p style="text-align:center;font-weight:bold;color:#3372ac;font-size:18px">1.888.MAILUMS<br>
+              <a href="mailto:info@umsmail.com">INFO@UMSMAIL.COM</a><br>
+              <a target="_blank" href="https://www.umsmail.com/">WWW.UMSMAIL.COM</a>
+            </p>
+            
+          </div>
+
+          <div class="col s12 m6 l6">
+            <h2 class="center" style="color:#3372ac;margin-top:5%"><i class="large material-icons">local_phone</i><br>
+            <a href="tel:+888-624-5867"><b><i>Click to Call</i></b></a></h2>
           </div>
         </div>
       </div>
@@ -135,17 +159,8 @@
 
     <div class="myContainer">
       <div class="row" style="text-align:center">
-        <div class="col l2 s12">
-        </div>
-        <div class="col l4 s12">
-          <h5 class="white-text">Location</h5>
-          <p class="grey-text text-lighten-4">10 New England Avenue<br>Piscataway, NJ 08854-4101</p>
-        </div>
-        <div class="col l4 s12">
-          <h5 class="white-text">Office Number</h5>
-          <p class="grey-text text-lighten-4">1 (888) MAIL UMS</p>
-        </div>
-        <div class="col l2 s12">
+        <div class="col s12">
+          <p class="grey-text text-lighten-4">UNIVERSAL MAILING SERVICE, INC. 10 NEW ENGLAND AVE., PISCATAWAY, NJ 08854</p>
         </div>
       </div>
     </div>
